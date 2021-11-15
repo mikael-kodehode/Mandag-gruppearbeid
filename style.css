@@ -151,3 +151,6 @@ a:visited {
       position: sticky;
       top: 0;
   }
+  nav li {
+      display: inline-block;
+  }
