@@ -43,3 +43,11 @@ p.contacts {
 .contacts a:hover {
     color: #654b9e;
 }
+a:link {
+    color: #aaa9a9;
+    text-decoration: none;
+}
+a:hover {
+    color: #706f6f;
+    text-decoration: none;
+}
