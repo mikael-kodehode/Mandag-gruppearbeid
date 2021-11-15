@@ -7,7 +7,7 @@ div.header {
     position: relative;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 8em;
+    font-size: 2em;
 }
 div.header a {
     float: left;
@@ -17,7 +17,7 @@ div.header a {
 div.footer {
     background-color: #f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.2em;
     position: relative;
     left: 0;
     bottom: 0;
@@ -25,8 +25,21 @@ div.footer {
     border-bottom: #595859;
     text-align: center;
 }
-}
 p.idk {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4em;
+    font-size: 1.4em;
+}
+p.idkbiggeriguess {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+p.contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.contacts a {
+    color: #aaa9a9
+}
+.contacts a:hover {
+    color: #654b9e
 }
