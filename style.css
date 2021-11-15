@@ -188,3 +188,8 @@ nav {
     position: sticky;
     top: 0;
 }
+@media(max-width: 568px) {
+    .cols {
+        display: initial;
+    }
+}
