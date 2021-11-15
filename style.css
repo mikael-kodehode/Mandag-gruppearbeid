@@ -89,12 +89,16 @@ a:hover {
 }
 .cols {
     color: #f5f5f5;
+    display: flex;
 }
 .col {
     background-color: #292929;
     opacity: 0.72;
     font-size: 1em;
     color: #f5f5f5;
+    margin: 2px;
+    padding: 2px;
+    border: solid black 1px;
 }
 .callusnow {
     color: #dbdbdb;
