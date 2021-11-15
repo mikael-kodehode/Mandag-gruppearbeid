@@ -186,3 +186,11 @@ nav {
     position: sticky;
     top: 0;
 }
+@media(max-width: 568px) {
+    .paraimage {
+        background-attachment: scroll;
+    }
+    .cols {
+        display: initial;
+    }
+}
