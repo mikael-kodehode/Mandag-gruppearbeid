@@ -192,4 +192,7 @@ nav {
     .cols {
         display: initial;
     }
+    .paraimage {
+        background-image: scroll;
+    }
 }
