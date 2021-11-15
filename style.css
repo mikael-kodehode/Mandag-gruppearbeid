@@ -193,6 +193,6 @@ nav {
         display: initial;
     }
     .paraimage {
-        background-image: scroll;
+        background-attachment: scroll;
     }
 }
