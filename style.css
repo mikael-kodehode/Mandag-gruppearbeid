@@ -171,6 +171,7 @@ ul.navul a:link {
 }
 li.navli {
       display: inline-block;
+      font-weight: bold;
 }
 li.navli a:visited {
     color: #4d4d4d;
