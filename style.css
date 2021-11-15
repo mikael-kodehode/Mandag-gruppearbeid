@@ -163,8 +163,26 @@ ul.navul {
       padding-top: 8px;
       padding-bottom: 8px;
 }
+ul.navul a:visited {
+    color: #4d4d4d;
+}
+ul.navul a:hover {
+    color: #4d4d4d;
+}
+ul.navul a:link {
+    color: #4d4d4d;
+}
 li.navli {
       display: inline-block;
+}
+li.navli a:visited {
+    color: #4d4d4d;
+}
+li.navli a:hover {
+    color: #4d4d4d;
+}
+li.navli a:link {
+    color: #4d4d4d;
 }
 nav {
     position: -webkit-sticky;
