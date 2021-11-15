@@ -1,169 +1,93 @@
-body {
-    background-color: #505050;
-    font-family: Arial, Helvetica, sans-serif;
-}
-div.header {
-    background-color: #f5f5f5;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.2em;
-    display: flex;
-    width: 100%;
-}
-div.header a {
-    text-align: center;
-    padding: 1px 1px;
-}
-div.header a:link {
-    text-decoration: none;
-    color: #f5f5f5;
-}
-div.header a:hover {
-    text-decoration: none;
-    color: #fcfcfc;
-}
-div.header a:visited {
-    text-decoration: none;
-    color: #f5f5f5;
-}
-div.footer {
-    background-color: #f5f5f5;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    border-bottom: #595859;
-    text-align: center;
-    display: inline;
-}
-div.footer a:link {
-    text-decoration: none;
-    color: #f5f5f5;
-    display: inline;
-}
-div.footer a:hover {
-    text-decoration: none;
-    color: #fcfcfc;
-    display: inline;
-}
-p.idk {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4em;
-}
-p.idkbiggeriguess {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6em;
-}
-p.contacts {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    display: inline;
-}
-.contacts a {
-    color: #aaa9a9;
-    display: inline;
-}
-.contacts a:hover {
-    color: #654b9e;
-}
-a:link {
-    color: #dbdbdb;
-    text-decoration: none;
-    -webkit-text-stroke: 2px #505050;
-    display: inline;
-}
-a:hover {
-    color: #dbdbdb;
-    text-decoration: none;
-    -webkit-text-stroke: 2px #505050;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick's Roadside Rescue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content"> -->
+                    <ul class="nav">
+                        <li class="nav"><a href="https://youtu.be/yPYZpwSpKmA" target="_blank">Home</a></li>
+                        <li class="nav"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Services</a></li>
+                        <li class="nav"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Bookings</a></li>
+                        <li class="nav"><a href="https://youtu.be/yPYZpwSpKmA" target="_blank">About</a></li>
+                        <li class="nav"><a href="https://youtu.be/yPYZpwSpKmA" target="_blank">Contacts</a></li>
+                    </ul>
+                <!-- </div>
+              </div> -->
+        </nav>
+        <div class="header">
+            <img>
+            <h1>Rick's Roadside Rescue</h1>
+            <p class="callusnow"><a href="tel:+4747904989">Call Us 903070</a></p>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2><a href="tel:+4747904989">Call Us 903070</a></h2>
+            <p>24 hours a day / 7 days a week</p>
+        </div>
+        <div>
+            <h2><a href="something">Book a service</a></h2>
+        </div>
 
-.paraimage {
-    position: relative;
-    opacity: 1;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*
-     fixed = parallax 
-     scroll = normal
-     */
-    background-attachment: fixed;
-    background-image: url('images/ZHPP4we.jpeg');
-    min-height: 100%;
-}
-.cols {
-    color: #f5f5f5;
-    display: flex;
-    margin-top: 20%;
-}
-.col {
-    background-color: #292929;
-    opacity: 0.72;
-    font-size: 1em;
-    color: #f5f5f5;
-    margin: 20px;
-    padding: 20px;
-    border: solid black 1px;
-}
-.callusnow {
-    color: #dbdbdb;
-    text-decoration: none;
-    -webkit-text-stroke: 2px #505050;
-    float: right;
-}
-.dropdown {
-    position: relative;
-    float: right;
-    z-index: 1;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #292929;
-    min-width: 160px;
-    box-shadow: 0px 6px 14px 0px #292929;
-    padding: 10px 14px;
-    z-index: 1;
-    text-align:right;
+        <h2>Services</h2>
+        <div class="paraimage">
+        <div class="cols">
+            <div class="col">
+                <h3>Vehicle towing</h3><br>
+                <p>We tow vehicles. All vehicles.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque sunt ratione adipisci enim, laboriosam accusamus pariatur voluptates officiis dolorem quia ab rem ipsum error repudiandae eum neque quidem sed?</p>
+                </p>
+            </div>
+            <div class="col">
+                <h3>Heavy towing</h3><br>
+                <p>We tow heavy vehicles. All heavy vehicles</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque sunt ratione adipisci enim, laboriosam accusamus pariatur voluptates officiis dolorem quia ab rem ipsum error repudiandae eum neque quidem sed?</p>
 
-}
-.dropbtn {
-    background-color: #505050;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
+            </div>
+            <div class="col">
+                <h3>Light towing</h3><br>
+                <p>We tow light vehicles. All light vehicles</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque sunt ratione adipisci enim, laboriosam accusamus pariatur voluptates officiis dolorem quia ab rem ipsum error repudiandae eum neque quidem sed?</p>
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+            </div>
+            <div class="col">
+                <h3>Feather towing</h3><br>
+                <p>We tow very light vehicles. Even bicycles.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque sunt ratione adipisci enim, laboriosam accusamus pariatur voluptates officiis dolorem quia ab rem ipsum error repudiandae eum neque quidem sed?</p>
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+            </div>
+            <div class="col">
+                <h3>Welter towing</h3><br>
+                <p>We tow weltervehicles.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque sunt ratione adipisci enim, laboriosam accusamus pariatur voluptates officiis dolorem quia ab rem ipsum error repudiandae eum neque quidem sed?</p>
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #ee5757;
-}
-a:visited {
-    color: #f5f5f5;
-}
-ul.navul {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-}
-li.navli {
-      display: inline-block;
-}
-nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
+            </div>
+        </div>
+    </main>
+</div>
+    <footer>
+        <div class="footer">
+            <p class="contacts">Contacts:</p>
+            <ul>
+                <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Rick Chrastly</a></li>
+                <li><a href="https://youtu.be/yPYZpwSpKmA" target="_blank">Bob Becketts</a></li>
+            </ul>
+            <p></p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
