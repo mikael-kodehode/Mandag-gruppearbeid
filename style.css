@@ -70,13 +70,11 @@ p.idkbiggeriguess {
 a:link {
     color: #dbdbdb;
     text-decoration: none;
-    -webkit-text-stroke: 2px #505050;
     display: inline;
 }
 a:hover {
     color: #dbdbdb;
     text-decoration: none;
-    -webkit-text-stroke: 2px #505050;
 }
 
 .paraimage {
