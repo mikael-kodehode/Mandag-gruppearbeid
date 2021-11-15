@@ -158,8 +158,10 @@ ul.navul {
       position: -webkit-sticky;
       position: sticky;
       top: 0;
-      border: 1px solid #b9b9b9;
+      border: 4px solid #b9b9b9;
       background-color: #f3f3f3;
+      padding-top: 2px;
+      padding-bottom: 2px;
 }
 li.navli {
       display: inline-block;
