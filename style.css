@@ -146,3 +146,8 @@ a:hover {
 a:visited {
     color: #cacaca;
   }
+  nav ul {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+  }
