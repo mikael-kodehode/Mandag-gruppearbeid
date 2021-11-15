@@ -74,7 +74,7 @@ a:hover {
 
 .paraimage {
     position: relative;
-    opacity: 0.70;
+    opacity: 0.40;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,3 +137,6 @@ a:hover {
 .dropdown:hover .dropbtn {
   background-color: #ee5757;
 }
+a:visited {
+    color: #cacaca;
+  }
