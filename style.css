@@ -196,3 +196,7 @@ nav {
         background-attachment: scroll;
     }
 }
+a h3 {
+    color:white;
+    font-size: 30px;
+}
