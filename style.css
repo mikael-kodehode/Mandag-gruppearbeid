@@ -55,7 +55,7 @@ p.idkbiggeriguess {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6em;
 }
-p.contacts {
+.contacts {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     display: inline;
@@ -187,16 +187,4 @@ nav {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-}
-@media(max-width: 568px) {
-    .cols {
-        display: initial;
-    }
-    .paraimage {
-        background-attachment: scroll;
-    }
-}
-.services {
-    color:white;
-    font-size: 30px;
 }
