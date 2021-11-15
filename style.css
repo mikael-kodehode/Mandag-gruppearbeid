@@ -74,7 +74,7 @@ a:hover {
 
 .paraimage {
     position: relative;
-    opacity: 0.88;
+    opacity: 1;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@ a:hover {
 }
 .dropdown {
     position: relative;
-    display: inline-block;
+    float: right;
 }
 .dropdown-content {
     display: none;
