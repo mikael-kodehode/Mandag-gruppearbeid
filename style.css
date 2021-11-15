@@ -188,7 +188,7 @@ nav {
     position: sticky;
     top: 0;
 }
-@media(max-width: 568px) {
+@media(max-width: 1000px) {
     .paraimage {
         background-attachment: scroll;
     }
